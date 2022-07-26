@@ -1,0 +1,208 @@
+*,*:before, *:after{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.menu{
+  position: absolute;
+  top: 55px;
+  right: 100px;
+  margin-right: 30px;
+}
+.menu__list ul{
+  display: flex;
+  justify-content: space-between;
+}
+.menu__list ul li{
+  list-style-type: none;
+  padding-right: 30px;
+}
+.menu__list ul li a{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 18px;
+  color: rgb(238, 238, 238);
+}
+.menu__list ul li a:hover{
+  opacity: 0.8;
+}
+.button1:hover{
+  opacity: 0.8;
+}
+.button2:hover{
+  opacity: 0.8;
+}
+.button3:hover{
+  opacity: 0.8;
+}
+.foto1{
+  position: absolute;
+  top: 190px;
+  right: 140px;
+}
+.logo1{
+  position: absolute;
+  top: 50px;
+  left: 190px;
+  cursor: pointer;
+}
+.logo_info{
+  position: absolute;
+  top: 50px;
+  left: 240px;
+  font-size: 30px;
+  color: rgb(238, 238, 238);
+  font-weight: bolder;
+  cursor: pointer;
+}
+.whyUseAppkit{
+padding-top: 90px;
+}
+.why_use-title{
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.1;
+    text-align: center;
+    font-family: 'Open Sans', arial, sans-serif;
+    margin-bottom: 15px;
+}
+.why_use-text{
+    color: #a2a6af;
+    font-size: 16px;
+    max-width: 760px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+.technologies_list{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.technologies_list-logo{
+padding: 5px;
+margin-left: 20px;
+}
+.Developmets{
+  margin-bottom: 60px;
+}
+.developmets-block{
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.lets__developmets{
+  max-width: 25%;
+  padding: 15px;
+}
+.developmets__img{
+  text-align: center;
+  min-width: 260px;
+  min-height: 177px;
+  padding-bottom: 10px;
+}
+.developmets-title{
+  color: #40babd;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 1.1;
+}
+.developmets-text{
+  text-align: center;
+  font-family: 'Open Sans', arial, sans-serif;
+  color: #494d55;
+  font-size: 14px;
+}
+.customers-text{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #fff;
+}
+.background_customers{
+  background-image: url(images/map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.customers{
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+.block_customers-images{
+  position: relative;
+  display: flex;
+  margin: auto;
+  padding: 30px;
+  max-width: 800px;
+}
+.block_customers-images:before{
+    position: absolute;
+    content: "";
+    left: -10px;
+    top: 40px;
+    width: 10px;
+    height: 10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #40babd;
+    opacity: 0.8;
+  }
+  .block_customers-images:before:nth-child(even){
+    position: absolute;
+    content: "";
+    left: 170px;
+    top: 40px;
+    width: 10px;
+    height: 10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #40babd;
+    opacity: 0.8;
+  }
+.block_customers-images:nth-child(even){
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+  padding: 30px;
+  max-width: 800px;
+}
+.customers-images{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.block_customers-info{
+  position: relative;
+  border-radius: 5px;
+  background-color:rgba(29, 182, 187, 0.7);
+  margin: auto;
+  padding: 30px;
+}
+.block_customers-title{
+  font-family: 'Open Sans', arial, sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.block_customers-text{
+  font-family: 'Open Sans', arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  font-size: 14px;
+}
